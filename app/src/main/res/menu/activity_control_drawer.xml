@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_first_layout" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Profile" />
+        <item android:id="@+id/nav_second_layout" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Change Password" />
+        <item android:id="@+id/nav_third_layout" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_Contact_Us" android:icon="@android:drawable/ic_menu_share"
+                android:title="Contact Us" />
+            <item android:id="@+id/nav_About_US" android:icon="@android:drawable/ic_menu_send"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
